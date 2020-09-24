@@ -1,6 +1,8 @@
 body {
-    margin: 0px
-    }
+   
+   
+}
+    
 
 .bandeau{   
 
@@ -9,4 +11,12 @@ body {
     width: 100%;
     text-align: center; /*le texte sera centrer*/
  }
- 
+ .right{
+    text-align: right;
+ }
+ body{
+    background-image: url("menu3.jpg");
+
+background-size: cover;
+
+}
