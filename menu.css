@@ -1,27 +1,67 @@
 body {
    border: 0px;
-   
-}
-    
-
-.bandeau{   
-    border: 0px;
-    background-color: rgb(0, 174, 255); /* Le fond du menu sera bleu  */
-    height: 100px;
-    width: 100%;
-    text-align: center; /*le texte sera centrer*/
- }
- .right{
-    text-align: right;
- }
- body{
-    background-image: url("menu3.jpg");
-
-background-size: cover;
-
+   margin: 0;
 }
 
 
-.menu > a {
+.bandeau {
+   border: 0px;
+
+   height: 100px;
+   width: 100%;
+   text-align: center;
+   /*le texte sera centrer*/
+}
+
+.right {
+   text-align: right;
+}
+
+body {
+   background-image: url("menu3.jpg");
+
+   background-size: cover;
+   background-repeat: no-repeat;
+
+}
+
+
+.menu {
    text-decoration: none;
+
+}
+
+.theme {
+
+   text-align: center;
+   font-size: 150%;
+
+}
+
+.footer {
+
+   height: 100px;
+   width: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   position: absolute;
+   bottom: 0;
+   color: red;
+}
+
+.pied {
+   font-size: 150%;
+   color: red;
+}
+
+.bouton1 {
+   font-size: 150%;
+   background-color: silver;
+   border:none;
+	padding:6px 0 6px 0;
+	border-radius:8px;
+	font:bold 13px Arial;
+	color:#fff;
 }
