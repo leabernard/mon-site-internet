@@ -1,0 +1,94 @@
+.intro {
+    font-size: 30px;
+}
+body{
+    background-color: lightgray;
+}
+
+.casque {
+    
+    display: flex;
+    
+}
+
+.casque > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+}
+
+
+
+
+.parpierre {
+ 
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.parpierre > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+    
+}
+
+.genou {
+    
+    display: flex;
+    
+}
+
+.genou > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+}
+.coude {
+ 
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.coude > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+    
+}
+
+.cervi {
+    
+    display: flex;
+    
+}
+
+.cervi > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+}
+.gants {
+ 
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.gants > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+    
+}
