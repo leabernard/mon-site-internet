@@ -92,3 +92,30 @@ body{
     font-size: 30px
     
 }
+.casqueendu {
+    
+    display: flex;
+    
+}
+
+.casqueendu > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+}
+.bol {
+ 
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bol > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+    
+}
