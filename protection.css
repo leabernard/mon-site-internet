@@ -119,3 +119,29 @@ body{
     font-size: 30px
     
 }
+.lea{
+    
+    display: flex;
+    
+}
+
+.lea> div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+}
+.lea2 {
+ 
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.lea2 > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+    
