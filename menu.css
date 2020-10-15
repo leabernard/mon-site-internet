@@ -38,7 +38,8 @@ body {
 
 
 }
-.theme p{
+
+.theme p {
    font-weight: bold;
 }
 
@@ -63,14 +64,96 @@ body {
 .bouton1 {
    font-size: 150%;
    background-color: silver;
-   border:none;
-	padding:6px;
-	border-radius:8px;
-	font:bold 20px Arial;
-   color:#fff;
+   border: none;
+   padding: 6px;
+   border-radius: 8px;
+   font: bold 20px Arial;
+   color: #fff;
    color: black;
 }
-.espace{
+
+.espace {
    width: 100%;
    height: 20px;
+}
+
+body {
+   border: 0px;
+   margin: 0;
+}
+
+
+.bandeau {
+   border: 0px;
+
+   height: 100px;
+   width: 100%;
+   text-align: center;
+   /*le texte sera centrer*/
+}
+
+.right {
+   text-align: right;
+}
+
+@media (max-width: 1000px) {
+   body {
+      background-image: url("menu3.jpg");
+
+      background-size: auto;
+      background-repeat: no-repeat;
+   
+
+   }
+
+   .menu {
+      text-decoration: none;
+
+   }
+
+   .theme {
+
+      text-align: center;
+      font-size: 150%;
+
+   }
+
+
+   .theme p {
+      font-weight: bold;
+   }
+
+   .footer {
+
+      height: 100px;
+      width: 100%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      color: red;
+   }
+
+   .pied {
+      font-size: 150%;
+      color: red;
+   }
+
+   .bouton1 {
+      font-size: 150%;
+      background-color: silver;
+      border: none;
+      padding: 6px;
+      border-radius: 8px;
+      font: bold 20px Arial;
+      color: #fff;
+      color: black;
+   }
+
+   .espace {
+      width: 100%;
+      height: 20px;
+   }
 }
