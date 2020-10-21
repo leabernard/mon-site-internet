@@ -1,0 +1,76 @@
+body{
+    background-color: lightgrey ;
+    font-size: 30px;
+}
+.loic {
+    font-size: 25px;
+    display: flex;
+    
+}
+.loic > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+    
+}
+.vall{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.vall> div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+    
+}
+
+.nicole {
+    font-size: 25px;
+    display: flex;
+    
+}
+.nicole > div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+    
+}
+.fabio{
+    text-align: center;
+
+}
+.popo{
+    font-size: 25px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.popo> div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+    
+}
+.kenny {
+    font-size: 25px;
+    display: flex;
+    
+}
+.kenny> div:nth-child(2)  {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    padding: 50px;
+    font-size: 30px
+    
+}
