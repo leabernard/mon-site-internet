@@ -1,14 +1,14 @@
 body{
-    background-color: lightgrey ;
-    font-size: 30px;
+    background-color: lightgrey ;/*couleur de font de page en gris */
+    font-size: 30px;/* taille du texte du body*/
 }
 .loic {
     font-size: 25px;
-    display: flex;
+    display: flex;/* tableau qu on voit pas  pour disposer les elements*/
     
 }
 .loic > div:nth-child(2)  {
-    flex-direction: column;
+    flex-direction: column; /* ici les deux div pour alignier les photo a gauche et le texte a droite*/
     justify-content: center;
     display: flex;
     padding: 50px;
@@ -18,11 +18,11 @@ body{
 .vall{
     font-size: 25px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse;  /*inverse les elements */
 }
 
 .vall> div:nth-child(2)  {
-    flex-direction: column;
+    flex-direction: column; /* ici  les deux div pour alignier les photo a droite et le texte a gauche les deux "child" sont les deux div text et image*/
     justify-content: center;
     display: flex;
     padding: 50px;
@@ -31,20 +31,16 @@ body{
 }
 
 .nicole {
-    font-size: 25px;
-    display: flex;
+    font-size: 25px;/*taille de la police */
+    text-align: center; /*texte ainsi que photo centrer*/
     
 }
-.nicole > div:nth-child(2)  {
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-    padding: 50px;
-    font-size: 30px
+
+   
     
 }
 .fabio{
-    text-align: center;
+    text-align: center;/*texte ainsi que photo centrer*/
 
 }
 .popo{

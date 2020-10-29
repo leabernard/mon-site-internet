@@ -1,17 +1,17 @@
 .intro {
-    font-size: 30px;
+    font-size: 30px; /* taille du texte dans l'intro*/
 }
 body{
-    background-color: lightgray;
+    background-color: lightgray;/*couleur de font de page en gris */
 }
 
 .casque {
     
-    display: flex;
+    display: flex; /* tableau qu on voit pas  pour disposer les elements*/
     
 }
 
-.casque > div:nth-child(2)  {
+.casque > div:nth-child(2)  { /* ici les deux div pour alignier les photo a gauche et le texte a droite*/
     flex-direction: column;
     justify-content: center;
     display: flex;
@@ -25,10 +25,11 @@ body{
 .parpierre {
  
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; /*inverse les elements */
 }
 
 .parpierre > div:nth-child(2)  {
+    flex-direction: column; /* ici  les deux div pour alignier les photo a droite et le texte a gauche les deux "child" sont les deux div text et image*/
     flex-direction: column;
     justify-content: center;
     display: flex;
@@ -44,7 +45,7 @@ body{
 }
 
 .genou > div:nth-child(2)  {
-    flex-direction: column;
+    flex-direction: column; /* ici les deux div pour alignier les photo a gauche et le texte a droite*/
     justify-content: center;
     display: flex;
     padding: 50px;
@@ -58,7 +59,8 @@ body{
 
 .coude > div:nth-child(2)  {
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;/* ici  les deux div pour alignier les photo a droite et le texte a gauche les deux "child" sont les deux div text et image*/
+    flex-direction: column;
     display: flex;
     padding: 50px;
     font-size: 30px
@@ -75,7 +77,7 @@ body{
     flex-direction: column;
     justify-content: center;
     display: flex;
-    padding: 50px;
+    padding: 50px; /* ici les deux div pour alignier les photo a gauche et le texte a droite*/
     font-size: 30px
 }
 .gants {
@@ -86,7 +88,8 @@ body{
 
 .gants > div:nth-child(2)  {
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;/* ici  les deux div pour alignier les photo a droite et le texte a gauche les deux "child" sont les deux div text et image*/
+    flex-direction: column;
     display: flex;
     padding: 50px;
     font-size: 30px
