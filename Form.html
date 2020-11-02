@@ -2,28 +2,41 @@
 <html>
 
 <head>
-    <title>site de léa</title>                   <!--titre du site ainsi que le liens vers le css-->
+    <title>site de léa</title>
+    <!--titre du site ainsi que le liens vers le css-->
     <link rel="stylesheet" href="form.css">
 </head>
 
 <body>
     <a class="right" href="menu.html">
-        <img src="image/bouton.png" alt="" height="50px" width="50px" /> <!--bouton retour au menu-->
+        <img src="image/bouton.png" alt="" height="50px" width="50px" />
+        <!--bouton retour au menu-->
     </a>
     <center>
-       
-            <div>
-                <h1>Me contacter</h1> <!--titre de la page-->
- <div class="contenu">
+
+        <div>
+            <h1>Me contacter</h1>
+            <!--titre de la page-->
+            <div class="contenu">
                 <label for="name">Nom:</label>
-                <input type="text" id="name" name="name" required minlength="4" maxlength="20" size="10"> <!--le label cest pour des zone de texte ici nous avons une zone pour le nom et le prénom-->
+                <input type="text" id="name" name="name" required minlength="4" maxlength="20" size="10">
+                <!--le label cest pour des zone de texte ici nous avons une zone pour le nom et le prénom-->
                 <label for="name">Prénom:</label>
                 <input type="text" id="name" name="name" required minlength="4" maxlength="20" size="10">
-                <label for="date de naissance">Date de naissance:</label>
+
+                <div><label for="sexe">sexe</label></div>
+                <select name="sexe" id="">
+                    <option value="">femme</option>
+                    <option value="">homme</option>
+                    <option value="">autre</option>
+                </select>
+                <div>
+                    <label for="date de naissance">Date de naissance:</label></div>
             </div>
             <select name="jour" id="">
                 <option value="">01</option>
-                <option value="">02</option>         <!--select va permettre de avoir plusieurs valeur dans liste ici c'est le nombre de jours pour mettre sa date de naissance -->
+                <option value="">02</option>
+                <!--select va permettre de avoir plusieurs valeur dans liste ici c'est le nombre de jours pour mettre sa date de naissance -->
                 <option value="">03</option>
                 <option value="">04</option>
                 <option value="">05</option>
@@ -56,7 +69,8 @@
             </select>
             <select name="mois" id="">
                 <option value="">Janvier</option>
-                <option value="">Février</option>       <!--liste de mois de l année -->
+                <option value="">Février</option>
+                <!--liste de mois de l année -->
                 <option value="">Mars</option>
                 <option value="">Avril</option>
                 <option value="">Mai</option>
@@ -70,7 +84,8 @@
             </select>
             <div>
                 <label for="année">Année:</label>
-                <input type="text" id="name" name="name" required minlength="4" maxlength="12" size="10"> <!--zonne de text pour l'anne ainsi que la dimension de la zone  et input ici et pour crée la zone de text car le type est text-->
+                <input type="text" id="name" name="name" required minlength="4" maxlength="12" size="10">
+                <!--zonne de text pour l'anne ainsi que la dimension de la zone  et input ici et pour crée la zone de text car le type est text-->
 
 
 
@@ -78,15 +93,17 @@
 
                 <label for="année">Telephone:</label>
                 <input type="text" id="name" name="name" required minlength="4" maxlength="12" size="10">
-                <label for="année">E-Mail:</label> <!--zone de texte pour mettre son adresse mail-->
+                <label for="année">E-Mail:</label>
+                <!--zone de texte pour mettre son adresse mail-->
                 <input type="text" id="name" name="name" required minlength="4" maxlength="12" size="10">
                 <p>
-                    <input type="submit" value="Envoyer"></p> <!--input avec commme type submit et un bouton et ici cest le bouton envoyer-->
+                    <input type="submit" value="Envoyer"></p>
+                <!--input avec commme type submit et un bouton et ici cest le bouton envoyer-->
 
             </div>
             <div>
-                <H1> Me contacter </H1> 
-        <div class="mail"><strong><span> mon adresse mail: lbernard@la-providence.net</span></strong></div>
+                <H1> Me contacter </H1>
+                <div class="mail"><strong><span> mon adresse mail: lbernard@la-providence.net</span></strong></div>
             </div>
         </div>
     </center>
